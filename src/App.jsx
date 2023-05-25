@@ -1,10 +1,12 @@
 import './App.css'
+import reactLogo from './assets/react.svg';
 
 function App() {
   
   return (
     <>
       <div>
+        <img src={reactLogo} alt='logo de react girando'/>
         <h1>Fase 5 - React - Grupo 24</h1>
       </div>
       <div className="card">
