@@ -1,0 +1,56 @@
+.homepage-container{
+    display: grid;
+    grid-template-areas: 
+    "A A A A"
+    "B B B B"
+    "C D D D"
+    "E E E E";
+    margin: unset;
+}
+
+.homepage-header{
+    grid-area: A;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+}
+
+.homepage-navbar{
+    grid-area: B;
+}
+
+.homepage-navbar a{
+    text-decoration: unset;
+    color: black
+}
+
+.homepage-aside{
+    grid-area: C;
+}
+
+.homepage-aside nav{
+    margin-left: 15px;
+}
+
+.homepage-aside a{
+    text-decoration: unset;
+    color: white;
+}
+
+.homepage-main{
+    grid-area: D;
+    width: inherit;
+    background-color: #ECF9FF;
+    padding-left: 10px;
+}
+
+.homepage-footer{
+    grid-area: E;
+    justify-content: center;
+}
+
+.homepage-footer section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
